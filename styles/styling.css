@@ -53,7 +53,7 @@ body {
   .content-text {
   
     grid-column: span 2;
-    padding-top: 6rem;
+    padding-top: 3rem;
     margin-left: 10%;
     margin-right: 10%;
     color: #000000;
@@ -66,8 +66,8 @@ body {
   .content-container img {
     width: 100%;
     height: auto;
-    max-width: 50%;  
-    min-width: 500px;
+    max-width: auto;  
+    min-width: auto;
     object-fit: cover;
   }
   
