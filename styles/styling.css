@@ -273,10 +273,18 @@ body {
   text-align: center;
   }
   
+  /* text-docoration removed underlined when visited*/
   a:link,
   a:visited {
       color: #000000;
+      text-decoration: none;
   }
+
+/* this adds a space between the linkedin icon and the linkedin address tag */
+  li a i {
+    margin-right: 10px; /* Adjust the right margin to add space between the icon and the text */
+}
+
   
   /* Responsive Query for CONTENT*/
   @media screen and (max-width: 1000px) {
